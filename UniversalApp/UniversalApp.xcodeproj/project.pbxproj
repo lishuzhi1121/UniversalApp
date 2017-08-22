@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		443F44F01F331EF2004CB804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F44EF1F331EF2004CB804 /* main.m */; };
 		443F44F61F331EF2004CB804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F44F51F331EF2004CB804 /* ViewController.m */; };
-		443F44F91F331EF2004CB804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443F44F71F331EF2004CB804 /* Main.storyboard */; };
 		443F44FB1F331EF2004CB804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443F44FA1F331EF2004CB804 /* Assets.xcassets */; };
 		443F44FE1F331EF2004CB804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443F44FC1F331EF2004CB804 /* LaunchScreen.storyboard */; };
 		443F45091F331EF2004CB804 /* UniversalAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F45081F331EF2004CB804 /* UniversalAppTests.m */; };
 		443F45141F331EF2004CB804 /* UniversalAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F45131F331EF2004CB804 /* UniversalAppUITests.m */; };
 		443F45241F331FA2004CB804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F45231F331FA2004CB804 /* AppDelegate.m */; };
+		443F45271F342F01004CB804 /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F45261F342F01004CB804 /* AppDelegate+AppService.m */; };
+		4467988A1F45A2B300499DA8 /* MBProgressHUD+SZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 446798891F45A2B300499DA8 /* MBProgressHUD+SZ.m */; };
+		44DBE65F1F4C240F0007365F /* SZNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBE65E1F4C240F0007365F /* SZNetworkHelper.m */; };
+		44DBE6621F4C2A390007365F /* HeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBE6611F4C2A390007365F /* HeaderModel.m */; };
+		44DBE6681F4C32BF0007365F /* AESCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBE6671F4C32BF0007365F /* AESCipher.m */; };
 		AC41C59C737E598BE08D293E /* libPods-UniversalAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 353BADE1D3DCFEA31F2223FB /* libPods-UniversalAppTests.a */; };
 		F2B0B6B79546108BD328B51E /* libPods-UniversalAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CFB40CF4C38D166A17B871 /* libPods-UniversalAppUITests.a */; };
 		F71F49A8C9C604A7B7D26107 /* libPods-UniversalApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B3E6CF5E0B285D1B94523D /* libPods-UniversalApp.a */; };
@@ -46,7 +50,6 @@
 		443F44EF1F331EF2004CB804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		443F44F41F331EF2004CB804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		443F44F51F331EF2004CB804 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		443F44F81F331EF2004CB804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		443F44FA1F331EF2004CB804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		443F44FD1F331EF2004CB804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443F44FF1F331EF2004CB804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +61,19 @@
 		443F45151F331EF2004CB804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		443F45221F331FA2004CB804 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		443F45231F331FA2004CB804 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		443F45251F342F01004CB804 /* AppDelegate+AppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		443F45261F342F01004CB804 /* AppDelegate+AppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
+		446798841F459BF000499DA8 /* CommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacros.h; sourceTree = "<group>"; };
+		446798851F459CE100499DA8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		446798881F45A2B300499DA8 /* MBProgressHUD+SZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+SZ.h"; sourceTree = "<group>"; };
+		446798891F45A2B300499DA8 /* MBProgressHUD+SZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+SZ.m"; sourceTree = "<group>"; };
+		4467988B1F45A40D00499DA8 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		44DBE65D1F4C240F0007365F /* SZNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZNetworkHelper.h; sourceTree = "<group>"; };
+		44DBE65E1F4C240F0007365F /* SZNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZNetworkHelper.m; sourceTree = "<group>"; };
+		44DBE6601F4C2A390007365F /* HeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderModel.h; sourceTree = "<group>"; };
+		44DBE6611F4C2A390007365F /* HeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderModel.m; sourceTree = "<group>"; };
+		44DBE6661F4C32BF0007365F /* AESCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCipher.h; sourceTree = "<group>"; };
+		44DBE6671F4C32BF0007365F /* AESCipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCipher.m; sourceTree = "<group>"; };
 		65B3FF47A8293B4D974380BD /* Pods-UniversalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniversalApp/Pods-UniversalApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3AAC5796C881747B97A3E1 /* Pods-UniversalAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniversalAppUITests/Pods-UniversalAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		85B3E6CF5E0B285D1B94523D /* libPods-UniversalApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UniversalApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +134,8 @@
 		443F44ED1F331EF2004CB804 /* UniversalApp */ = {
 			isa = PBXGroup;
 			children = (
+				446798861F45A29600499DA8 /* Utils */,
+				446798831F459BC600499DA8 /* Define */,
 				443F45211F331F81004CB804 /* AppDelegate */,
 				443F44F41F331EF2004CB804 /* ViewController.h */,
 				443F44F51F331EF2004CB804 /* ViewController.m */,
@@ -130,10 +148,10 @@
 			isa = PBXGroup;
 			children = (
 				443F44EF1F331EF2004CB804 /* main.m */,
-				443F44F71F331EF2004CB804 /* Main.storyboard */,
 				443F44FA1F331EF2004CB804 /* Assets.xcassets */,
 				443F44FC1F331EF2004CB804 /* LaunchScreen.storyboard */,
 				443F44FF1F331EF2004CB804 /* Info.plist */,
+				446798851F459CE100499DA8 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,8 +179,58 @@
 			children = (
 				443F45221F331FA2004CB804 /* AppDelegate.h */,
 				443F45231F331FA2004CB804 /* AppDelegate.m */,
+				443F45251F342F01004CB804 /* AppDelegate+AppService.h */,
+				443F45261F342F01004CB804 /* AppDelegate+AppService.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		446798831F459BC600499DA8 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				446798841F459BF000499DA8 /* CommonMacros.h */,
+				4467988B1F45A40D00499DA8 /* UtilsMacros.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		446798861F45A29600499DA8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				44DBE6631F4C320F0007365F /* AES */,
+				44DBE65C1F4C23D20007365F /* NetWork */,
+				446798871F45A29600499DA8 /* MBProgressHUD+SZ */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		446798871F45A29600499DA8 /* MBProgressHUD+SZ */ = {
+			isa = PBXGroup;
+			children = (
+				446798881F45A2B300499DA8 /* MBProgressHUD+SZ.h */,
+				446798891F45A2B300499DA8 /* MBProgressHUD+SZ.m */,
+			);
+			path = "MBProgressHUD+SZ";
+			sourceTree = "<group>";
+		};
+		44DBE65C1F4C23D20007365F /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				44DBE65D1F4C240F0007365F /* SZNetworkHelper.h */,
+				44DBE65E1F4C240F0007365F /* SZNetworkHelper.m */,
+				44DBE6601F4C2A390007365F /* HeaderModel.h */,
+				44DBE6611F4C2A390007365F /* HeaderModel.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		44DBE6631F4C320F0007365F /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				44DBE6661F4C32BF0007365F /* AESCipher.h */,
+				44DBE6671F4C32BF0007365F /* AESCipher.m */,
+			);
+			path = AES;
 			sourceTree = "<group>";
 		};
 		81386B558175EA2C0A584639 /* Pods */ = {
@@ -308,7 +376,6 @@
 			files = (
 				443F44FE1F331EF2004CB804 /* LaunchScreen.storyboard in Resources */,
 				443F44FB1F331EF2004CB804 /* Assets.xcassets in Resources */,
-				443F44F91F331EF2004CB804 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +538,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443F45271F342F01004CB804 /* AppDelegate+AppService.m in Sources */,
+				44DBE65F1F4C240F0007365F /* SZNetworkHelper.m in Sources */,
+				44DBE6681F4C32BF0007365F /* AESCipher.m in Sources */,
+				4467988A1F45A2B300499DA8 /* MBProgressHUD+SZ.m in Sources */,
 				443F44F61F331EF2004CB804 /* ViewController.m in Sources */,
+				44DBE6621F4C2A390007365F /* HeaderModel.m in Sources */,
 				443F44F01F331EF2004CB804 /* main.m in Sources */,
 				443F45241F331FA2004CB804 /* AppDelegate.m in Sources */,
 			);
@@ -509,14 +581,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		443F44F71F331EF2004CB804 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				443F44F81F331EF2004CB804 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		443F44FC1F331EF2004CB804 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -625,9 +689,12 @@
 			baseConfigurationReference = 65B3FF47A8293B4D974380BD /* Pods-UniversalApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Chen GangQiang (785VZN2ZN7)";
 				DEVELOPMENT_TEAM = Q87QUX3533;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = UniversalApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mob.UniversalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -641,9 +708,12 @@
 			baseConfigurationReference = 3961BD2E7C554553C0443B37 /* Pods-UniversalApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Chen GangQiang (785VZN2ZN7)";
 				DEVELOPMENT_TEAM = Q87QUX3533;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = UniversalApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mob.UniversalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
